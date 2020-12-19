@@ -22,8 +22,9 @@ export class Todo extends Entity {
 
   @property({
     type: 'boolean',
+    default: false
   })
-  isComplete?: boolean;
+  isComplete: boolean;
 
    @property({
     type: 'string',
